@@ -82,10 +82,12 @@ li a {
   transition: all ease-in 200ms;
   background-color: var(--grey);
   padding: 1rem 7rem;
+  transition: transform 0.5s ease-out;
 }
 
 li a:hover,
 li a:focus {
+  transform: scale(1.1);
   background-color: var(--green);
   color: var(--offBlack);
 }
